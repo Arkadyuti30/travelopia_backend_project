@@ -21,6 +21,7 @@ module.exports.routes = {
 
   '/': { view: 'pages/homepage' },
   'POST /submit/form': 'TravelFormControllerr.submitForm',
+  'GET /all/form/data': 'TravelFormControllerr.getAllFormData',
 
 
   /***************************************************************************

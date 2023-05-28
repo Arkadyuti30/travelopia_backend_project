@@ -34,6 +34,16 @@ module.exports = {
         }
         return res.ok()
     })
+  },
+
+  getAllFormData: (req, res) => {
+    TravelForm.find({}).exec((err, allFormData) => {
+        if (err) {
+            sails.log.error(`Error in finding form data, error: ${JSON.stringify(err)}`)
+            return res.negotiate(err)
+        }
+        return res.json(allFormData)
+    })
   }
 };
 
