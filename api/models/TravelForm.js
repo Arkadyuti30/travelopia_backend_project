@@ -48,7 +48,7 @@ module.exports = {
         status: 400
       })
     }
-    TravelForm.create(formData).fetch().exec((err) => {
+    TravelForm.create(formData).exec((err) => {
       if (err) {
         sails.log.error(`Error storing form data ${JSON.stringify(formData)}`)
         return cb(err)

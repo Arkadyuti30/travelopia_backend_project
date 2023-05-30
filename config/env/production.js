@@ -270,7 +270,7 @@ module.exports = {
     //   'https://staging.example.com',
     // ],
 
-    onlyAllowOrigins: ["https://travel-app-ktlh.onrender.com"]
+    onlyAllowOrigins: ["https://travelopia-backend-project-git-arkadyuti30-dev.apps.sandbox-m3.1530.p1.openshiftapps.com/"]
 
 
     /***************************************************************************
