@@ -11,6 +11,8 @@
 
 module.exports.sockets = {
 
+  onlyAllowOrigins: ["http://localhost", "https://travel-app-ktlh.onrender.com"],
+
   /***************************************************************************
   *                                                                          *
   * `transports`                                                             *
