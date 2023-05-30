@@ -270,6 +270,8 @@ module.exports = {
     //   'https://staging.example.com',
     // ],
 
+    onlyAllowOrigins: ["https://travel-app-ktlh.onrender.com"]
+
 
     /***************************************************************************
     *                                                                          *
