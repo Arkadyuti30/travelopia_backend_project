@@ -54,7 +54,7 @@ module.exports = {
         return cb(err)
       }
       return cb(null)
-    }
+    })
   }
 
 };
